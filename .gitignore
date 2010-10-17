@@ -1,6 +1,6 @@
 target/
 *~
-\#*\#
+#\#*\#
 *.swp
 nbproject
 .DS_Store
