@@ -1,0 +1,55 @@
+<class-diagram version="0.9.86" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.patrik.JMockOne.Hello" project="ch.panter.projectzero" 
+    file="/ch.panter.projectzero/src/main/java/ch/patrik/JMockOne/Hello.java" binary="false">    
+    <position x="133" y="308" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface corner="BOTTOM_RIGHT" language="java" name="ch.patrik.JMockOne.IGreetingTime" 
+    project="ch.panter.projectzero" file="/ch.panter.projectzero/src/main/java/ch/patrik/JMockOne/IGreetingTime.java" 
+    binary="false">    
+    <position x="136" y="58" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class corner="BOTTOM_RIGHT" language="java" name="ch.patrik.JMockOne.TestHello" project="ch.panter.projectzero" 
+    file="/ch.panter.projectzero/src/test/java/ch/patrik/JMockOne/TestHello.java" binary="false">    
+    <position x="402" y="190" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <association>    
+    <source project="ch.panter.projectzero" name="ch.patrik.JMockOne.Hello" 
+      file="/ch.panter.projectzero/src/main/java/ch/patrik/JMockOne/Hello.java" binary="false" navigable="false">      
+      <attribute name="gt"/>      
+      <multiplicity minimum="0" maximum="1"/>    
+    </source>    
+    <target project="ch.panter.projectzero" name="ch.patrik.JMockOne.IGreetingTime" 
+      file="/ch.panter.projectzero/src/main/java/ch/patrik/JMockOne/IGreetingTime.java" binary="false" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency>    
+    <source project="ch.panter.projectzero" name="ch.patrik.JMockOne.TestHello" 
+      file="/ch.panter.projectzero/src/test/java/ch/patrik/JMockOne/TestHello.java" binary="false"/>    
+    <target project="ch.panter.projectzero" name="ch.patrik.JMockOne.Hello" 
+      file="/ch.panter.projectzero/src/main/java/ch/patrik/JMockOne/Hello.java" binary="false"/>  
+  </dependency>  
+  <dependency>    
+    <source project="ch.panter.projectzero" name="ch.patrik.JMockOne.TestHello" 
+      file="/ch.panter.projectzero/src/test/java/ch/patrik/JMockOne/TestHello.java" binary="false"/>    
+    <target project="ch.panter.projectzero" name="ch.patrik.JMockOne.IGreetingTime" 
+      file="/ch.panter.projectzero/src/main/java/ch/patrik/JMockOne/IGreetingTime.java" binary="false"/>  
+  </dependency>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
